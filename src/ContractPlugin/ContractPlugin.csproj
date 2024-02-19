@@ -29,9 +29,4 @@
         <None Remove="obj\**"/>
     </ItemGroup>
 
-    <!-- Define a default build target -->
-    <!--    <Target Name="Build" Condition="'$(BuildingInsideVisualStudio)' != 'true'">-->
-    <!--        <MSBuild Projects="$(MSBuildProjectFile)" Targets="Restore;Build" Properties="Configuration=$(Configuration)"/>-->
-    <!--    </Target>-->
-
 </Project>

@@ -6,7 +6,7 @@ public static class ParameterParser
 {
     /// <summary>
     ///     Proto Util method based off the C++ original
-    ///     https://github.com/protocolbuffers/protobuf/blob/main/src/google/protobuf/compiler/code_generator.cc#L97
+    ///     https://github.com/protocolbuffers/protobuf/blob/main/src/google/protobuf/compiler/code_generator.cc#L113
     /// </summary>
     internal static List<KeyValuePair<string, string>> ParseGeneratorParameter(string text)
     {
